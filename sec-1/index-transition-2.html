@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS animatin, transitions and transforms</title>
+                
+    <!-- OUR STYLESHEET -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    
+</head>
+<style>
+    button {
+        height: 90px;
+        width: 290px;
+        font-size: 28px;
+        color: white;
+        border: none;
+        background-color: blue;
+        
+        /* transition */
+        transition: background-color 1s ease-in-out 0.2s,
+                    color 2s ease 3s, 
+                    border-radius 4s ease-out 5s;
+        /* transition: all 0.5s ease-in 0.2s */
+    }
+
+    button:hover {
+        background-color: green;
+        color: black;
+        border-radius: 50%;
+    }
+</style>
+<body>
+
+	<button>css transition</button>
+    
+</body>
+
+</html>

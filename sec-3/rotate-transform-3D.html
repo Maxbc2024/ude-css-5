@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>translate in 3D</title>
+<style type="text/css">
+
+body {
+	/* perspective = determina la distancia entre el plano z=0 y el usuario */
+	/* z>0 se hace más grande y con z<0 se vuelve más pequeño.*/
+	perspective: 500px;
+}
+
+img {
+	width: 300px;
+	display: block;
+	margin: auto;
+	margin-top: 200px;
+	/* transition */
+	transition: transform 1s;
+}
+
+img:hover {
+	transform: rotateY(60deg);
+}
+
+</style>
+</head>
+
+<body>
+
+	<img src="img/cat.jpg" alt="">
+
+</body>
+</html>
