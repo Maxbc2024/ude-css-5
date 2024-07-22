@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS animatin, transitions and transforms</title>
+                
+    <!-- OUR STYLESHEET -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    
+</head>
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1em;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+
+section:nth-child(1) h2 {
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+section:nth-child(2) h2 {
+    background-image: url(2.jpg);
+    background-size: cover;
+}
+
+section:nth-child(3) h2 {
+    background-image: url(3.jpg);
+    background-size: cover;
+}
+
+section:nth-child(4) h2 {
+    background-image: url(4.jpg);
+    background-size: cover;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+</style>
+<body>
+
+    <section>
+        <div class="content">
+            <h2>giza</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus sed amet dolorem, dicta perferendis. Pariatur optio, ab cumque aspernatur recusandae tempore eaque enim et dolore quod, id at harum odit perspiciatis, debitis adipisci impedit soluta dignissimos quo beatae magnam. Velit, eum tenetur dicta numquam quibusdam necessitatibus nesciunt culpa deserunt perspiciatis nulla impedit minima natus voluptates quae, voluptatum suscipit molestias excepturi quas saepe possimus nisi cupiditate quam laboriosam. Commodi, cum!</p>
+            <a href="#">read more</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>paris</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus sed amet dolorem, dicta perferendis. Pariatur optio, ab cumque aspernatur recusandae tempore eaque enim et dolore quod, id at harum odit perspiciatis, debitis adipisci impedit soluta dignissimos quo beatae magnam. Velit, eum tenetur dicta numquam quibusdam necessitatibus nesciunt culpa deserunt perspiciatis nulla impedit minima natus voluptates quae, voluptatum suscipit molestias excepturi quas saepe possimus nisi cupiditate quam laboriosam. Commodi, cum!</p>
+            <a href="#">read more</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>dubai</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus sed amet dolorem, dicta perferendis. Pariatur optio, ab cumque aspernatur recusandae tempore eaque enim et dolore quod, id at harum odit perspiciatis, debitis adipisci impedit soluta dignissimos quo beatae magnam. Velit, eum tenetur dicta numquam quibusdam necessitatibus nesciunt culpa deserunt perspiciatis nulla impedit minima natus voluptates quae, voluptatum suscipit molestias excepturi quas saepe possimus nisi cupiditate quam laboriosam. Commodi, cum!</p>
+            <a href="#">read more</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>new york</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus sed amet dolorem, dicta perferendis. Pariatur optio, ab cumque aspernatur recusandae tempore eaque enim et dolore quod, id at harum odit perspiciatis, debitis adipisci impedit soluta dignissimos quo beatae magnam. Velit, eum tenetur dicta numquam quibusdam necessitatibus nesciunt culpa deserunt perspiciatis nulla impedit minima natus voluptates quae, voluptatum suscipit molestias excepturi quas saepe possimus nisi cupiditate quam laboriosam. Commodi, cum!</p>
+            <a href="#">read more</a>
+        </div>
+    </section>
+  
+</body>
+</html>
