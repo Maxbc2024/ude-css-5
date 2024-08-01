@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>night mode road animation using javascript</title>
+    <link rel="stylesheet" type="text/css" href="10-night-mode-road-animation.css">
+  </head>
+  <body>
+    <section class="scene">
+      <div class="sun"></div>
+      <div class="bg">
+        <img src="images/car.gif" class="car1">
+        <img src="images/car.gif" class="car2">
+      </div>
+    </section>
+
+    <script>
+        const sun = document.querySelector('.sun');
+        const scene = document.querySelector('.scene');
+        sun.addEventListener('click', () => {
+            scene.classList.toggle('night')
+        })
+    </script>
+
+  </body>
+</html>
