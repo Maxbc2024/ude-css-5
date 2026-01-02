@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CSS animatin, transitions and transforms</title>
-                
-    <!-- OUR STYLESHEET -->
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    
-</head>
-<style>
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *
 {
     margin: 0;
@@ -127,19 +114,3 @@ body
     opacity: 1;
     top: 0px;
 }
-</style>
-<body>
-
-    <div class="card">
-		<div class="imgBx">
-			<img src="image/headphone1.png">
-		</div>
-		<div class="contentBx">
-			<h3>Wireless Headphones</h3>
-			<h2 class="price">$40.<small>99</small></h2>
-			<a href="#" class="buy">Buy Now</a>
-		</div>
-	</div>
-  
-</body>
-</html>

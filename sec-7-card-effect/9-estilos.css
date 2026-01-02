@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CSS animatin, transitions and transforms</title>
-                
-    <!-- OUR STYLESHEET -->
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    
-</head>
-<style>
- @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
 
 * {
   margin: 0;
@@ -199,34 +186,3 @@ body {
   transform: translateY(0px);
   transition-delay: 0.75s;
 }
-
-</style>
-<body>
-
-    <div class="container">
-        <div class="card">
-          <div class="imgBx">
-            <img src="image/shoes.png" />
-          </div>
-          <div class="contentBx">
-            <h2>Nike Shoes</h2>
-            <div class="size">
-              <h3>size:</h3>
-              <span>7</span>
-              <span>8</span>
-              <span>9</span>
-              <span>10</span>
-            </div>
-            <div class="color">
-              <h3>color:</h3>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a href="#">buy now</a>
-          </div>
-        </div>
-      </div>
-  
-</body>
-</html>
